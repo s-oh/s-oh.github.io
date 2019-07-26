@@ -1,0 +1,55 @@
+.bar {
+  background-color: #00cc00;
+  overflow: hidden;
+}
+
+.bar a {
+  float: left;
+  display: block;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bar a:hover {
+  background-color: #ffff4d;
+}
+
+.bar a.active {
+  background-color: white;
+  color: #ffff4d;
+}
+
+.bar .icon {
+  display: none;
+}
+
+#title {
+  font-family: monospace;
+  font-size: 36px;
+  color: #FF8C00;
+  text-shadow: 2px 2px black;
+}
+
+div.relative {
+  position: relative;
+  left: 350px;
+  top: -350px;
+  width: 980px;
+  word-wrap: normal;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.rice {
+  text-shadow: 2px 2px #ffff4d;
+}
+
+#riceDescription {
+  font-size: 26px;
+}
